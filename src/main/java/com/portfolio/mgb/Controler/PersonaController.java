@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
+@CrossOrigin (origins = "*")
 public class PersonaController {
     @Autowired IPersonaService ipersonaService;
     
-    @GetMapping ("personas/traer")
     public List<Persona> getPersona (){
         return ipersonaService.getPersona();
     }
