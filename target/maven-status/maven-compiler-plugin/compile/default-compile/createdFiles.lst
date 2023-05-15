@@ -1,0 +1,6 @@
+com\portfolio\mgb\Controler\PersonaController.class
+com\portfolio\mgb\MgbApplication.class
+com\portfolio\mgb\Service\ImpPersonaService.class
+com\portfolio\mgb\Entity\Persona.class
+com\portfolio\mgb\Interface\IPersonaService.class
+com\portfolio\mgb\Repository\IPersonaRepository.class
